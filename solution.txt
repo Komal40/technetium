@@ -1,0 +1,2 @@
+
+The ""[Dgit restore filename" command is used to restore the file to the working tree, which means that the changes made to the file since last commit are discarded. On the other hand, "git restore --staged filename" command is used to unstage the file and move it back to the working tree, which means that changes made to the file are still kept in staging area.
