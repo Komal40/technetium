@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Invitation} from './component/Invitation/invitation';
 
 function App() {
+  const invite="Birthday Party Invitation";
+  const id="jaGdish@gmail.com";
+  const name=" jaGdish ";
+  const party="birthday party";
+  const names="Ritu , Saurabh , Kartik .";
+  const venue="Green field Avenue .";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="content">
+    <Invitation invite={invite} id={id} name={name} party={party} names={names} venue={venue}/>
     </div>
   );
 }
