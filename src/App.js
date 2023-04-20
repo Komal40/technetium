@@ -3,22 +3,30 @@ import './App.css';
 
 function App() {
   return (
+
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       
+     
+      <img src={logo} className="App-logo" alt="logo" />
+      <h2>Benefits of using react...</h2>
+      <div>
+      <ol>
+      
+        <li>Components based architecture</li>
+        <li>Virtual DOM for efficient updates</li>
+        <li>Rich ecosystem and community</li>
+        <li>Cross platform development </li>
+        <li>Strong community support </li>
+     
+      </ol>
+      </div>
+      <button>Go started..</button>
       </header>
+      
     </div>
+    
+
   );
 }
 
